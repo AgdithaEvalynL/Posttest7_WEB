@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url("latar.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    background-color: rgba(138, 97, 70, 0.7);
+    box-shadow: 200%;
+    border-radius: 10%;
+}
+.container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #493131;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.container label{
+    text-align: left;
+    color:rgb(54, 62, 70)
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #302416;
+    color: #ffffff;
+    font-size: 20px;
+}
+.container form button{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1px 2px;
+    padding-bottom: 10px;
+    border: none;
+    background-color:#935939;
+    font-size: 18px;
+    color: #493131;
+    border-radius: 20px;
+}
